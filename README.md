@@ -1,1 +1,0 @@
-# hivemq-enterprise-security-extension-customization-sdk

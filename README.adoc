@@ -1,0 +1,41 @@
+= HiveMQ Enterprise Security Extension Customization SDK
+
+image:https://maven-badges.herokuapp.com/maven-central/com.hivemq/hivemq-enterprise-security-extension-customization-sdk/badge.svg?style=for-the-badge["Maven Central",link="https://maven-badges.herokuapp.com/maven-central/com.hivemq/hivemq-enterprise-security-extension-customization-sdk"]
+image:https://javadoc.io/badge2/com.hivemq/hivemq-enterprise-security-extension-customization-sdk/javadoc.svg?style=for-the-badge["javadoc",link=https://javadoc.io/doc/com.hivemq/hivemq-enterprise-security-extension-customization-sdk]
+
+== Features
+
+The HiveMQ Enterprise Security Extension Customization SDK allows the programmatic interaction with the https://www.hivemq.com/extension/hivemq-enterprise-security-extension/[HiveMQ Enterprise Security Extension].
+
+By implementing a customization for the HiveMQ Enterprise Security Extension, it is possible to:
+
+* Read and write ESE variables via custom preprocessors.
+
+== Using the SDK
+
+To use the SDK, add the following dependency to your project:
+
+Maven
+
+[source,xml]
+----
+<dependency>
+    <groupId>com.hivemq</groupId>
+    <artifactId>hivemq-enterprise-security-extension-customization-sdk</artifactId>
+    <version>4.35.0</version>
+</dependency>
+----
+
+Gradle
+
+[source,kotlin]
+----
+implementation("com.hivemq:hivemq-enterprise-security-extension-customization-sdk:4.35.0")
+----
+
+NOTE: The HiveMQ Enterprise Security Extension Customization SDK is available on Maven central, so no special configuration is needed.
+
+== License
+
+The HiveMQ Enterprise Security Extension SDK is licensed under the `APACHE LICENSE, VERSION 2.0`.
+A copy of the license can be found link:LICENSE[here].
