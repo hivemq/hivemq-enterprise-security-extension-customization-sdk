@@ -17,7 +17,6 @@
 package com.hivemq.extensions.enterprise.security.api.preprocessor;
 
 import com.hivemq.extension.sdk.api.annotations.DoNotImplement;
-import com.hivemq.extension.sdk.api.annotations.Experimental;
 import com.hivemq.extension.sdk.api.annotations.NotNull;
 import com.hivemq.extension.sdk.api.packets.connect.ConnectPacket;
 import com.hivemq.extension.sdk.api.parameter.ClientBasedInput;
@@ -28,7 +27,6 @@ import com.hivemq.extension.sdk.api.parameter.ClientBasedInput;
  * @author Mario Schwede
  * @since 4.35.0
  */
-@Experimental
 @DoNotImplement
 public interface MqttPreprocessorProcessInput extends PreprocessorProcessInput, ClientBasedInput {
 

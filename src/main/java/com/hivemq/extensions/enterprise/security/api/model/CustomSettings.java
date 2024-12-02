@@ -17,7 +17,6 @@
 package com.hivemq.extensions.enterprise.security.api.model;
 
 import com.hivemq.extension.sdk.api.annotations.DoNotImplement;
-import com.hivemq.extension.sdk.api.annotations.Experimental;
 import com.hivemq.extension.sdk.api.annotations.Immutable;
 import com.hivemq.extension.sdk.api.annotations.NotNull;
 
@@ -32,7 +31,6 @@ import java.util.Optional;
  * @since 4.35.0
  */
 @Immutable
-@Experimental
 @DoNotImplement
 public interface CustomSettings {
 
