@@ -17,7 +17,6 @@
 package com.hivemq.extensions.enterprise.security.api.model;
 
 import com.hivemq.extension.sdk.api.annotations.DoNotImplement;
-import com.hivemq.extension.sdk.api.annotations.Experimental;
 import com.hivemq.extension.sdk.api.annotations.NotNull;
 import com.hivemq.extension.sdk.api.annotations.Nullable;
 
@@ -31,7 +30,6 @@ import java.util.List;
  * @author Mario Schwede
  * @since 4.35.0
  */
-@Experimental
 @DoNotImplement
 public interface EseVariablesOutput {
 

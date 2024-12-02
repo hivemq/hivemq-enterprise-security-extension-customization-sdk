@@ -17,7 +17,6 @@
 package com.hivemq.extensions.enterprise.security.api.preprocessor;
 
 import com.hivemq.extension.sdk.api.annotations.DoNotImplement;
-import com.hivemq.extension.sdk.api.annotations.Experimental;
 import com.hivemq.extension.sdk.api.annotations.NotNull;
 import com.hivemq.extensions.enterprise.security.api.model.EseVariablesInput;
 
@@ -27,7 +26,6 @@ import com.hivemq.extensions.enterprise.security.api.model.EseVariablesInput;
  * @author Mario Schwede
  * @since 4.35.0
  */
-@Experimental
 @DoNotImplement
 public interface PreprocessorProcessInput extends PreprocessorInput {
 

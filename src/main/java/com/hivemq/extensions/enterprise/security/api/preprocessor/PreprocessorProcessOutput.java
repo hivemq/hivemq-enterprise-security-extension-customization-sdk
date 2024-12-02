@@ -17,7 +17,6 @@
 package com.hivemq.extensions.enterprise.security.api.preprocessor;
 
 import com.hivemq.extension.sdk.api.annotations.DoNotImplement;
-import com.hivemq.extension.sdk.api.annotations.Experimental;
 import com.hivemq.extension.sdk.api.annotations.NotNull;
 import com.hivemq.extension.sdk.api.async.Async;
 import com.hivemq.extensions.enterprise.security.api.model.EseVariablesOutput;
@@ -28,7 +27,6 @@ import com.hivemq.extensions.enterprise.security.api.model.EseVariablesOutput;
  * @author Mario Schwede
  * @since 4.35.0
  */
-@Experimental
 @DoNotImplement
 public interface PreprocessorProcessOutput<T extends PreprocessorProcessOutput<T>> {
 
