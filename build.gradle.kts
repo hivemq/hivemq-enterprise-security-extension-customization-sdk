@@ -33,6 +33,12 @@ metadata {
     license {
         apache2()
     }
+    developers {
+        register("mario-schwede-hivemq") {
+            fullName = "Mario Schwede"
+            email = "mario.schwede@hivemq.com"
+        }
+    }
     github {
         issues()
     }
