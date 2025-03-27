@@ -22,7 +22,7 @@ Maven
 <dependency>
     <groupId>com.hivemq</groupId>
     <artifactId>hivemq-enterprise-security-extension-customization-sdk</artifactId>
-    <version>4.37.0</version>
+    <version>4.38.0</version>
 </dependency>
 ----
 
@@ -30,7 +30,7 @@ Gradle
 
 [source,kotlin]
 ----
-implementation("com.hivemq:hivemq-enterprise-security-extension-customization-sdk:4.37.0")
+implementation("com.hivemq:hivemq-enterprise-security-extension-customization-sdk:4.38.0")
 ----
 
 NOTE: The HiveMQ Enterprise Security Extension Customization SDK is available on Maven central, so no special configuration is needed.
