@@ -5,6 +5,7 @@
     ],
     baseBranchPatterns: [
         'master',
+        'master-4.55',
         'renovate-playground',
     ],
     useBaseBranchConfig: 'merge',
