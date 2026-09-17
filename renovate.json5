@@ -6,7 +6,6 @@
     baseBranchPatterns: [
         'master',
         'master-4.55',
-        'renovate-playground',
     ],
     useBaseBranchConfig: 'merge',
     branchPrefix: 'renovate/hivemq-enterprise-security-extension-customization-sdk/',
